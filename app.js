@@ -19,6 +19,10 @@ app.get('/', (req, res) => {
 	res.sendFile(__dirname + '/src/frontend/html/index.html');
 });
 
+app.get('/game', (req, res) => {
+	res.sendFile(__dirname + '/src/frontend/html/game.html');
+});
+
 io.on('connection', (socket) => {
 	console.log('A user connected');
 

@@ -1,0 +1,13 @@
+#main {
+	padding-top: 25px;
+	text-align: center;
+}
+.circle {
+	background-color: grey;
+	border-radius: 50%;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 10px;
+	height: 100px;
+	width: 100px;
+}
